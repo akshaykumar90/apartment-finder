@@ -104,7 +104,7 @@ def scrape_area(area):
             session.commit()
 
             # Return the result if it's near a bart station, or if it is in an area we defined.
-            if len(result["bart"]) > 0 or len(result["area"]) > 0:
+            if len(result["area"]) > 0:
                 results.append(result)
 
     return results

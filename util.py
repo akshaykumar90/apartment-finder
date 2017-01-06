@@ -77,6 +77,7 @@ def find_points_of_interest(geotag, location):
         for hood in settings.NEIGHBORHOODS:
             if hood in location.lower():
                 area = hood
+                area_found = True
 
     return {
         "area_found": area_found,
