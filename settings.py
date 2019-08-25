@@ -6,7 +6,7 @@ import os
 MIN_PRICE = 1500
 
 # The maximum rent you want to pay per month.
-MAX_PRICE = 2600
+MAX_PRICE = 2700
 
 ## Location preferences
 
@@ -74,6 +74,8 @@ NEIGHBORHOODS = [
     "noe valley",
     "bernal heights",
     "potrero hill",
+    "hayes valley",
+    "nob hill",
 ]
 
 ## Transit preferences
